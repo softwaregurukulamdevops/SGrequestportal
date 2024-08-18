@@ -10,7 +10,7 @@ resource "azurerm_resource_group" "example" {
 
 # Define the Standard App Service Plan
 resource "azurerm_app_service_plan" "standard_plan" {
-  name                = "rg-bookportal-app-service-plan"
+  name                = "rg-Requestportal-app-service-plan"
   location            = azurerm_resource_group.example.location
   resource_group_name = azurerm_resource_group.example.name
   kind                = "App"
